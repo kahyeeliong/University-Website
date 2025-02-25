@@ -12,3 +12,6 @@ Features
 - Contact Page: Includes a stylish form for user feedback (email functionality simulated).
 - Accessibility and Legal Considerations: Dedicated pages for accessibility, GDPR, and security compliance.
 - Design and Testing: Sections on design decisions, mockups, and testing outcomes.
+
+Project Link
+- https://kahyeeliong.github.io/University-Website/
