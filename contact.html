@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Food And Drinks</title>
+  <meta name="author" content="Liong Kah Yee">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+    <!-- -------------HEADER------------   -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"/></a>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="f&b.html">Food & Drink Vendors</a></li>
+                <li><a href="picnic.html">Picnic Locations</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Accessibility.html">Accessibility</a></li>
+                <li><a href="Legal&Security.html">Legal and Security</a></li>
+                <li><a href="design.html">Design</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- -------------MAIN CONTENT------------ -->
+    <main>
+        <section class="contact-info">
+            <header>
+                <h1>Contact Us</h1>
+            </header>
+            <p>If you have any questions or comments, feel free to reach out using the form below. We look forward to hearing from you!</p>
+             
+            <article class="contact-details">
+                <h2>Contact Information</h2>
+                <address>
+                    Department of Computer Science<br>
+                    University of Sheffield<br>
+                    Regent Court, 211 Portobello<br>
+                    Sheffield, S1 4DP<br>
+                    United Kingdom
+                </address>
+            </article>
+        </section>
+
+        <!-- -------------CONTACT FORM------------ -->
+        <form name="contactForm" action="mailto:kyliong1@sheffield.ac.uk?subject=Website Feedback" method="post" enctype="text/plain" onsubmit="alert('Thank you for your message!');">
+            <p>
+                <label for="email">Your e-mail:</label>
+                <input type="email" name="email" id="email" placeholder="type your email..."
+                    maxlength="40" size="20" required>
+            </p>
+
+            <p>
+                <label for="user-comments">Your Comments:</label>
+                <textarea id="user-comments" name="user-comments" placeholder="Write your comments here..." rows="5" required></textarea>
+            </p>
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </main>
+
+<!-- -------------FOOTER------------ -->
+<footer>
+    <p>© 2024 University of Sheffield Guide. Designed by Liong Kah Yee.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

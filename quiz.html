@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Picnic Quiz</title>
+  <meta name="author" content="Liong Kah Yee">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+
+    <!-- -------------HEADER------------   -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"/></a>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="f&b.html">Food & Drink Vendors</a></li>
+                <li><a href="picnic.html">Picnic Locations</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Accessibility.html">Accessibility</a></li>
+                <li><a href="Legal&Security.html">Legal and Security</a></li>
+                <li><a href="design.html">Design</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- -------------MAIN CONTENT------------ -->
+    <section class="hero-image">
+        <img src="images/Picnic2.jpg" alt="Picnic Scene" class="hero-img">
+        <div class="hero-text">
+            <h1>Test Your Knowledge!</h1>
+            <p>Can you guess all about Sheffield's best picnic spots?</p>
+        </div>
+    </section>
+
+    <main class="quiz-container">
+        <section class="quiz-item">
+            <header>
+                <h1>Sheffield Picnic Locations Quiz</h1>
+            </header>
+
+            <form name="quizForm">
+                <fieldset>
+                    <legend>Question 1: What's Your Ideal Picnic Spot?</legend>
+                    <div class="picnic-options">
+                        <label class="picnic-option-card">
+                            <input type="checkbox" name="picnicSpot" value="Weston Park">
+                            <div class="picnic-card-content">
+                                <img src="images/WestonPark.jpg" alt="Weston Park">
+                                <span>Weston Park</span>
+                            </div>
+                        </label>
+
+                        <label class="picnic-option-card">
+                            <input type="checkbox" name="picnicSpot" value="Crookes Valley Park">
+                            <div class="picnic-card-content">
+                                <img src="images/Crookes.jpeg" alt="Crookes Valley Park">
+                                <span>Crookes Valley Park</span>
+                            </div>
+                        </label>
+
+                        <label class="picnic-option-card">
+                            <input type="checkbox" name="picnicSpot" value="Botanical Gardens">
+                            <div class="picnic-card-content">
+                                <img src="images/Botanical.jpg" alt="Botanical Gardens">
+                                <span>Botanical Gardens</span>
+                            </div>
+                        </label>
+
+                        <label class="picnic-option-card">
+                            <input type="checkbox" name="picnicSpot" value="Endcliffe Park">
+                            <div class="picnic-card-content">
+                                <img src="images/EndcliffePark.jpg" alt="Endcliffe Park">
+                                <span>Endcliffe Park</span>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Question 2: Which museum located near Weston Park is free to visit?</legend>
+                    <figure>
+                        <img src="images/WestonPark2.jpg" alt="Weston Park Museum" class="question-image">
+                        <figcaption>Weston Park Museum</figcaption>
+                    </figure>
+                    <div class="options">
+                        <label class="radio-option">
+                            <input type="radio" name="q2" value="Kelham Island Museum">
+                            Kelham Island Museum
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="q2" value="Weston Park Museum">
+                            Weston Park Museum
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="q2" value="Sheffield Industrial Museum">
+                            Sheffield Industrial Museum
+                        </label>
+                    </div>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Question 3: Which flower is mentioned in the fun fact as the best spot in the springtime at the Botanical Gardens?</legend>
+                    <figure>
+                        <img src="images/Botanical2.webp" alt="Botanical Garden" class="question-image">
+                        <figcaption>Botanical Gardens in Spring</figcaption>
+                    </figure>
+                    <div class="picnic-options">
+                        <label class="picnic-option-card">
+                            <input type="radio" name="q3" value="Daffodils">
+                            <div class="picnic-card-content">
+                                <img src="images/Daffodils.jpg" alt="Daffodils">
+                                <span>Daffodils</span>
+                            </div>
+                        </label>
+            
+                        <label class="picnic-option-card">
+                            <input type="radio" name="q3" value="Crocuses">
+                            <div class="picnic-card-content">
+                                <img src="images/crocuses.jpg" alt="Crocuses">
+                                <span>Crocuses</span>
+                            </div>
+                        </label>
+            
+                        <label class="picnic-option-card">
+                            <input type="radio" name="q3" value="Tulips">
+                            <div class="picnic-card-content">
+                                <img src="images/tulips.webp" alt="Tulips">
+                                <span>Tulips</span>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <p>
+                    <input type="submit" class="btn-submit" name="submit" id="submit" value="Submit">
+                    <input type="reset" class="btn-submit" value="Reset Quiz">
+                </p>
+            </form>
+        </section>
+    </main>
+
+<!-- -------------FOOTER------------ -->
+<footer>
+    <p>© 2024 University of Sheffield Guide. Designed by Liong Kah Yee.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
